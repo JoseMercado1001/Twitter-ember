@@ -1,0 +1,10 @@
+<ul>
+	{{#each @tweets as |tweet|}}
+		<li>{{tweet.id}}</li>
+		<li>{{tweet.userName}}</li>
+		<li>{{tweet.description}}</li>
+	{{else}}
+		No hay tweets
+	{{/each}}
+
+</ul>
